@@ -9,16 +9,15 @@ if exists('g:hybrid_reduced_contrast') && g:hybrid_reduced_contrast == 1
   let s:mono2   = '#2E3C47'
 	let s:mono3 = '#425059'
 	let s:mono4 = '#6c7a80'
-  let s:mono5   = '#6C7A80'
 else
 	let s:mono0 = '#1d1f21'
 	let s:mono1 = '#282a2e'
   let s:mono2 = '#303030'
 	let s:mono3 = '#373b41'
 	let s:mono4 = '#707880'
-  let s:mono5 = '#c5c8c6'
 endif
 
+let s:mono5 = '#c5c8c6'
 let s:c_mono0 = 234
 let s:c_mono1 = 0
 let s:c_mono2 = 236
